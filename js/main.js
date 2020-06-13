@@ -3,11 +3,11 @@
 	var nav = $('nav');
   var navHeight = nav.outerHeight();
   
-  $('.navbar-toggler').on('click', function() {
-    if( ! $('#mainNav').hasClass('navbar-reduce')) {
-      $('#mainNav').addClass('navbar-reduce');
-    }
-  })
+//   $('.navbar-toggler').on('click', function() {
+//     if( ! $('#mainNav').hasClass('navbar-reduce')) {
+//       $('#mainNav').addClass('navbar-reduce');
+//     }
+//   })
 
   // Preloader
   $(window).on('load', function () {
@@ -15,7 +15,16 @@
       $('#preloader').delay(100).fadeOut('slow', function () {
         $(this).remove();
       });
-    }
+	}
+	
+	(function(){
+		var otherSkills = [ 'ASP.NET MVC', 'ASP.NET Core', 'LINQ', 'Entity Framework', 'Dapper', 'SQL Server', 'MySQL', 'SQLite',
+							'ASP.NET Web API', 'ASP Classic', 'VB', 'jQuery', 'Boostrap 3/4', 'Materialize CSS', 'GIT', 'TFS', 'PWA',
+							'Sharepoint Framework', 'React', 'Vue.js', 'Wordpress', 'PHP', 'Azure DevOps', 'jsPDF' ];
+		$.each(otherSkills, function(index, item){
+			$('p.lead.skills').append('<a href="https://www.google.com/search?q=' + item + '" target="_blank"><span class="badge badge-info">' + item + '</span></a>');
+		})
+	})();
   });
 
   // Back to top button

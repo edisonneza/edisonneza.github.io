@@ -660,10 +660,10 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
-.about-mf .box-shadow-full {
+/* .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
+} */
 
 .about-mf .about-img {
   margin-bottom: 2rem;
@@ -1257,4 +1257,9 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+.lead .badge {
+  padding: 6px;
+  margin: 2px;
 }
