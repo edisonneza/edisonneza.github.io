@@ -1,6 +1,23 @@
 {
-    "app": "securityApp",
-    "expires": false,
-    "attempts": 3,
-    "erase": false
+    "apps": [
+        {
+            "name": "securityApp",
+            "platform": "mobile",
+            "os": ["android", "ios"],
+            "expires": false,
+            "attempts": 3,
+            "erase": false
+        },
+        {
+            "name": "posElectron",
+            "platform": ["desktop"],
+            "os": ["window", "linux", "macos"],
+            "clients": [
+                {
+                    "id": "b6c25e5187eda0254409def1ed3bdfc6",
+                    "valid": true
+                }
+            ]
+        }
+    ]
 }
