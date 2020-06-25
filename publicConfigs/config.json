@@ -14,7 +14,19 @@
             "os": ["window", "linux", "macos"],
             "clients": [
                 {
-                    "id": "b6c25e5187eda0254409def1ed3bdfc6",
+                    "id": "212a00eb956893d5b6f9d9389be3a16fcd7e2d67",
+                    "valid": true
+                },
+                {
+                    "id": "0bce054d977c71130dc86dc0b0ec21ffbefbaa01",
+                    "valid": true
+                },
+                {
+                    "id": "6b0c0957df5640035ad43eb7a171fa2b2ce4e143",
+                    "valid": true
+                },
+                {
+                    "id": "ed28e0f05f59710a704abd370d9dbe28e12c0964",
                     "valid": true
                 }
             ]
