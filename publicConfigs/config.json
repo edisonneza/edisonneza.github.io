@@ -29,6 +29,12 @@
                     "id": "ed28e0f05f59710a704abd370d9dbe28e12c0964",
                     "valid": true
                 }
+            ],
+            "functions": [
+                {
+                    "name": "test",
+                    "value": "function (a, b) { return a + b; }"
+                }
             ]
         }
     ]
