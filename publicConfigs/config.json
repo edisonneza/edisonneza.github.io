@@ -1,0 +1,6 @@
+{
+    "app": "securityApp",
+    "expires": false,
+    "attempts": 3,
+    "erase": false
+}
