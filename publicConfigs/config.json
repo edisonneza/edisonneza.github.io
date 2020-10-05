@@ -3,39 +3,104 @@
         {
             "name": "securityApp",
             "platform": "mobile",
-            "os": ["android", "ios"],
-            "expires": false,
-            "attempts": 3,
-            "erase": false
+            "os": [
+                "android",
+                "ios"
+            ],
+            "languageOrFrameworkDev": [
+                "react-native"
+            ],
+            "otherProps": {
+                "expires": false,
+                "attempts": 3,
+                "erase": false
+            }
         },
         {
             "name": "posElectron",
-            "platform": ["desktop"],
-            "os": ["window", "linux", "macos"],
-            "clients": [
-                {
-                    "id": "212a00eb956893d5b6f9d9389be3a16fcd7e2d67",
-                    "valid": true
-                },
-                {
-                    "id": "0bce054d977c71130dc86dc0b0ec21ffbefbaa01",
-                    "valid": true
-                },
-                {
-                    "id": "6b0c0957df5640035ad43eb7a171fa2b2ce4e143",
-                    "valid": true
-                },
-                {
-                    "id": "ed28e0f05f59710a704abd370d9dbe28e12c0964",
-                    "valid": true
-                }
+            "platform": [
+                "desktop"
             ],
-            "functions": [
-                {
-                    "name": "test",
-                    "value": "function (a, b) { return a + b; }"
+            "os": [
+                "window",
+                "linux",
+                "macos"
+            ],
+            "languageOrFrameworkDev": [
+                "javascript"
+            ],
+            "otherProps": {
+                "clients": [
+                    {
+                        "id": "212a00eb956893d5b6f9d9389be3a16fcd7e2d67",
+                        "valid": true
+                    },
+                    {
+                        "id": "0bce054d977c71130dc86dc0b0ec21ffbefbaa01",
+                        "valid": false
+                    },
+                    {
+                        "id": "6b0c0957df5640035ad43eb7a171fa2b2ce4e143",
+                        "valid": true
+                    },
+                    {
+                        "id": "ed28e0f05f59710a704abd370d9dbe28e12c0964",
+                        "valid": true
+                    },
+                    {
+                        "id": "1B576435DA65066E5C3D0C3D59B4E4B6CBC38081",
+                        "valid": true
+                    },
+                    {
+                        "id": "14BCB53270E7876A37E5E63F3ED2AA009732C009",
+                        "valid": true
+                    },
+                    {
+                        "id": "7D38249FC6ECC05E73918AD2F296C57AAE6201D5",
+                        "valid": true
+                    },
+                    {
+                        "id": "21DD3EF33C6386818C30CFB965AD5E86C0065E7B",
+                        "valid": true
+                    }
+                ],
+                "functions": [
+                    {
+                        "name": "test",
+                        "value": "function (a, b) { return a + b; }"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "D&D",
+            "platform": "web",
+            "os": [],
+            "languageOrFrameworkDev": [
+                "react-typescript"
+            ],
+            "otherProps": {
+                "prices": {
+                    "PVC": {
+                        "off": 5,
+                        "price": {
+                            "white": 95,
+                            "gray": 115
+                        },
+                        "currency": "euro",
+                        "colors": [
+                            "white",
+                            "gray"
+                        ]
+                    },
+                    "Aluminium": {
+                        "off": 0,
+                        "price": {},
+                        "currency": "",
+                        "colors": []
+                    }
                 }
-            ]
+            }
         }
     ]
 }
