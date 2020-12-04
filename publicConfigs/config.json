@@ -82,7 +82,7 @@
             "otherProps": {
                 "prices": {
                     "PVC": {
-                        "off": 10,
+                        "off": 6,
                         "price": {
                             "white": 95,
                             "gray": 115
