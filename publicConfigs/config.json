@@ -95,9 +95,15 @@
                     },
                     "Aluminium": {
                         "off": 0,
-                        "price": {},
-                        "currency": "",
-                        "colors": []
+                        "price": {
+                            "white": 75,
+                            "gray": 85
+                        },
+                        "currency": "euro",
+                        "colors": [
+                            "white",
+                            "gray"
+                        ]
                     }
                 }
             }
