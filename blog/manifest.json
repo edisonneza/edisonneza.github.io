@@ -1,0 +1,42 @@
+{
+  "short_name": "Tech News",
+  "name": "Lajme rreth teknologjisë",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/blog/",
+  "display": "standalone",
+  "theme_color": "#3367D6",
+  "background_color": "#ffffff",
+  "scope": "/blog/",
+  "shortcuts": [
+    {
+      "name": "Kërko lajme",
+      "short_name": "Kërko",
+      "description": "Hyni ne pamjen e kerkimit te informacioneve",
+      "url": "/blog/search",
+      "icons": [{ "src": "/blog/logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Shiko postimet e ruajtura",
+      "short_name": "Të ruajtura",
+      "description": "Shiko postimet qe keni ruajtur gjate leximit",
+      "url": "/blog/saved",
+      "icons": [{ "src": "/blog/logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}
