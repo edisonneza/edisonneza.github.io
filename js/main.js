@@ -18,7 +18,7 @@
 	}
 	
 	(function(){
-		var otherSkills = [ 'ASP.NET MVC', 'ASP.NET Core', 'LINQ', 'Entity Framework', 'Dapper', 'SQL Server', 'MySQL', 'SQLite',
+		var otherSkills = [ '.NET 5', 'ASP.NET MVC', 'ASP.NET Core', 'LINQ', 'Entity Framework', 'Dapper', 'SQL Server', 'MySQL', 'SQLite',
 							'ASP.NET Web API', 'ASP Classic', 'VB', 'Javascript', 'Typescript', 'jQuery', 'Boostrap 3/4', 'Materialize CSS', 'GIT', 'TFS', 'PWA',
 							'Sharepoint Framework', 'Microsoft Power Automate', 'React', 'Wordpress', 'Azure DevOps', 'jsPDF' ];
 		$.each(otherSkills, function(index, item){
