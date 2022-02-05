@@ -20,7 +20,8 @@
 	(function(){
 		var otherSkills = [ '.NET 5', 'ASP.NET MVC', 'ASP.NET Core', 'LINQ', 'Entity Framework', 'Dapper', 'SQL Server', 'MySQL', 'SQLite',
 							'ASP.NET Web API', 'ASP Classic', 'VB', 'Javascript', 'Typescript', 'jQuery', 'Boostrap 3/4', 'Materialize CSS', 'GIT', 'TFS', 'PWA',
-							'Sharepoint Framework', 'Microsoft Power Automate', 'React', 'Wordpress', 'Azure DevOps', 'jsPDF' ];
+							'Sharepoint Framework', 'Microsoft Power Automate', 'React', 'Wordpress', 'Azure DevOps', 'jsPDF',
+				                        'jspdf-invoice-template', 'ravendb'];
 		$.each(otherSkills, function(index, item){
 			$('p.lead.skills').append('<a href="https://www.google.com/search?q=' + item + '" target="_blank"><span class="badge badge-info">' + item + '</span></a>');
 		})
