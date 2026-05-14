@@ -2,262 +2,608 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Edison Neza - Software Engineer - Personal Website</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="edison neza software engineer web developer programmer asp.net csharp javascript typescript sql"
-        name="keywords">
-    <meta content="Edison Neza - Software Engineer - Personal Website" name="description">
-    <meta property="og:type" content="website">
-	<meta property="og:title" content="Edison Neza - Software Engineer - Personal Website">
-	<meta property="og:url" content="https://edisonneza.github.io/">
-	<meta property="og:image"
-		content="https://edisonneza.github.io/img/edisonneza github io.PNG">
-	<meta property="og:description"
-		content="Edison Neza - Software Engineer - Personal Website">
-    <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <meta charset="utf-8">
+  <title>Edison Neza — Tech Lead & Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Edison Neza, Tech Lead, Software Engineer, .NET, C#, React, TypeScript, Full Stack, Albania, Clean Architecture, DDD">
+  <meta name="description" content="Edison Neza — Tech Lead & Software Engineer specializing in .NET, React, Clean Architecture, and Azure cloud solutions.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Edison Neza — Tech Lead & Software Engineer">
+  <meta property="og:url" content="https://edisonneza.github.io/">
+  <meta property="og:image" content="https://edisonneza.github.io/img/edisonneza github io.PNG">
+  <meta property="og:description" content="Edison Neza — Tech Lead & Software Engineer specializing in .NET, React, and Clean Architecture.">
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HN6X66XGL0"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+  <!-- Bootstrap -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Ionicons -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
-	  gtag('config', 'G-HN6X66XGL0');
-	</script>
+  <!-- Main Stylesheet -->
+  <link href="css/style.css?v=1.0.0" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HN6X66XGL0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HN6X66XGL0');
+  </script>
 </head>
 
 <body id="page-top">
 
-    <!--/ Nav Star /-->
-    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll" href="#page-top">eNeza</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-                aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="image-to-text">Image to Text</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="https://www.npmjs.com/package/jspdf-invoice-template">jsPDF Template</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--/ Nav End /-->
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-ring"></div>
+  </div>
 
-    <!--/ Intro Skew Star /-->
-    <div id="home" class="intro route bg-image"
-        style="background-image: url(./img/albania.jpg)">
-        <div class="overlay-itro"></div>
-        <div class="intro-content display-table">
-            <div class="table-cell">
-                <div class="container">
-                    <!--<p class="display-6 color-d">Hello, world!</p>-->
-                    <h1 class="intro-title mb-4">I am Edison Neza</h1>
-                    <p class="intro-subtitle"><span class="text-slider-items">Software Engineer,Full Stack,Web Developer,.NET C#,SQL,[Java-Type]script</span><strong class="text-slider"></strong></p>
-                    <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-                </div>
-            </div>
-        </div>
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#home">
+        <span class="brand-bracket">&lt;</span>eNeza<span class="brand-bracket">/&gt;</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link js-scroll" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link nav-cta" href="blog">Blog</a></li>
+        </ul>
+      </div>
     </div>
-    <!--/ Intro Skew End /-->
+  </nav>
 
-    <section id="about" class="about-mf sect-pt4 route">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="box-shadow-full">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-5">
-                                        <div class="about-img text-center">
-                                            <img src="img/avatar.png" class="img-fluid rounded b-shadow-a" alt=""
-                                                style="max-width: 120px;">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-7">
-                                        <div class="about-info">
-                                            <p><span class="title-s">Name: </span> <span>Edison Neza</span></p>
-                                            <p><span class="title-s">Profile: </span> <span>Software Engineer</span></p>
-                                            <p><span class="title-s">Email: </span> <a href="mailto:edisonneza.dev@gmail.com">edisonneza.dev@gmail.com</a></p>
-                                            <p><span class="title-s">Company: </span> <span>Vivido Software</span></p>
-                                            <p><span class="title-s">Phone: </span> <span>(+355) 67 <del>0000 0000</del> </span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill-mf">
-                                    <p class="title-s">Skills</p>
-                                    <span>C#, ASP.NET MVC</span> <span class="pull-right">85%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 85%"
-                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%"
-                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>TYPESCRIPT</span> <span class="pull-right">80%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 80%"
-                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>SQL</span> <span class="pull-right">80%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 80%"
-                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>HTML</span> <span class="pull-right">90%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%;"
-                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>CSS3</span> <span class="pull-right">90%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%"
-                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>DESIGN PATTERNS</span> <span class="pull-right">85%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 85%"
-                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about-me pt-4 pt-md-0">
-                                    <div class="title-box-2">
-                                        <h5 class="title-left">
-                                            About me
-                                        </h5>
-                                    </div>
-                                    <p class="lead">
-					"Good software, like wine, takes time"
-                                        ― <i>Joel Spolsky</i>
-                                    </p>
-                                    <p class="lead">
-                                        “Any fool can write code that a computer can understand. Good programmers write
-                                        code that humans can understand.”
-                                        ― <i>Martin Fowler</i>
-                                    </p>
-                                    <p class="lead">
-                                        “Always code as if the guy who ends up maintaining your code will be a violent
-                                        psychopath who knows where you live”
-                                        ― <i>John Woods</i>
-                                    </p>
-                                    <p class="lead">
-                                        “I'm not a great programmer; I'm just a good programmer with great habits.”
-                                        ― <i>Kent Beck</i>
-                                    </p>
-                                    <p class="lead">
-                                        “A language that doesn't affect the way you think about programming is not worth
-                                        knowing.”
-                                        ― <i>Alan J. Perlis</i>
-                                    </p>
-                                    <p class="lead">
-                                        “Progress is possible only if we train ourselves to think about programs without
-                                        thinking of them as pieces of executable code. ”
-                                        ― <i>Edsger W. Dijkstra</i>
-                                    </p>
-                                    <p class="lead">
-                                        “Talk is cheap. Show me the code.”
-                                        ― <i>Linus Torvalds</i>
-                                    </p>
-                                    <p class="lead skills">
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg" style="background-image: url('./img/office.png')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-grid"></div>
+
+    <div class="container hero-content">
+      <div class="hero-inner">
+        <div class="hero-label reveal-up" style="--delay:0s">
+          <span class="hero-dot"></span>
+          Available &nbsp;·&nbsp; Durres, Albania &nbsp;·&nbsp; Tech Lead @ Vivido Software
         </div>
-    </section>
 
+        <h1 class="hero-name reveal-up" style="--delay:0.12s">
+          Edison<br><span class="hero-name-outline">Neza</span>
+        </h1>
 
-    <!--/ Section Contact-Footer Star /-->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style="background-image: url(img/overlay-bg.jpg)">
-        <div class="overlay-mf"></div>
-        <div class="container">
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="copyright-box">
-                                <div class="socials text-center">
-                                    <ul>
-                                        <li><a href="https://facebook.com/edisonneza" target="_blank"><span class="ico-circle"><i
-                                                        class="ion-social-facebook"></i></span></a></li>
-                                        <li><a href="https://instagram.com/edisonneza" target="_blank"><span class="ico-circle"><i
-                                                        class="ion-social-instagram"></i></span></a></li>
-                                        <li><a href="https://twitter.com/edisonneza" target="_blank"><span class="ico-circle"><i
-                                                        class="ion-social-twitter"></i></span></a></li>
-                                        <li><a href="https://linkedin.com/in/edisonneza" target="_blank"><span class="ico-circle"><i
-                                                        class="ion-social-linkedin"></i></span></a></li>
-                                        <li><a href="https://github.com/edisonneza" target="_blank"><span class="ico-circle"><i
-                                                        class="ion-social-github"></i></span></a></li>
-                                    </ul>
-                                </div>
-                                <p class="copyright">&copy; Copyright 2020</p>
-                                <div class="credits">
-                                    Powered by <a href="https://pages.github.io/">GitHub Pages</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <p class="hero-typed reveal-up" style="--delay:0.24s">
+          <span class="typed-cursor-char">_</span>
+          <span class="text-slider-items">Tech Lead,Software Engineer,Full Stack Developer,.NET &amp; C#,React &amp; TypeScript,Clean Architecture</span>
+          <strong class="text-slider"></strong>
+        </p>
+
+        <p class="hero-bio reveal-up" style="--delay:0.36s">
+          Building scalable software with Clean Architecture · DDD · Azure · React
+        </p>
+
+        <div class="hero-cta reveal-up" style="--delay:0.48s">
+          <a href="#about" class="btn-primary-custom js-scroll">Explore my work</a>
+          <a href="https://linkedin.com/in/edisonneza" target="_blank" class="btn-ghost-custom">LinkedIn</a>
+        </div>
+
+        <div class="hero-scroll reveal-up" style="--delay:0.65s">
+          <div class="scroll-track"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section id="about" class="section-block">
+    <div class="container">
+      <div class="section-header aos-fade">
+        <span class="sec-label">01 / About</span>
+        <h2 class="sec-title">Who I Am</h2>
+      </div>
+
+      <div class="row about-row">
+        <!-- Profile Card -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="profile-card aos-fade" style="--ad:0s">
+            <div class="profile-avatar-wrap">
+              <img src="img/avatar.png" alt="Edison Neza" class="profile-avatar">
+              <div class="avatar-ring"></div>
+            </div>
+
+            <div class="profile-meta">
+              <div class="meta-row">
+                <span class="meta-key">Role</span>
+                <span class="meta-val">Tech Lead · Software Engineer</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Company</span>
+                <span class="meta-val">Vivido Software Sh.p.k.</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Location</span>
+                <span class="meta-val">Durres, Albania</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Email</span>
+                <span class="meta-val"><a href="mailto:edisonneza.dev@gmail.com">edisonneza.dev@gmail.com</a></span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Phone</span>
+                <span class="meta-val">+355 6720-----</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Languages</span>
+                <span class="meta-val">Albanian (Native) · English (C1)</span>
+              </div>
+            </div>
+
+            <div class="profile-socials">
+              <a href="https://github.com/edisonneza" target="_blank" title="GitHub"><i class="ion-social-github"></i></a>
+              <a href="https://linkedin.com/in/edisonneza" target="_blank" title="LinkedIn"><i class="ion-social-linkedin"></i></a>
+              <a href="https://twitter.com/edisonneza" target="_blank" title="Twitter"><i class="ion-social-twitter"></i></a>
+              <a href="https://facebook.com/edisonneza" target="_blank" title="Facebook"><i class="ion-social-facebook"></i></a>
+              <a href="https://instagram.com/edisonneza" target="_blank" title="Instagram"><i class="ion-social-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bio + Skills -->
+        <div class="col-lg-8">
+          <div class="about-right aos-fade" style="--ad:0.1s">
+            <p class="about-bio">
+              Software Engineer and Technical Lead with extensive experience in <strong>.NET, ASP.NET MVC/Web API, SQL, NoSQL, and React</strong>, building full-stack solutions that are scalable, reliable, and maintainable.
+            </p>
+            <p class="about-bio">
+              Strong advocate of <strong>Clean Architecture, Domain-Driven Design (DDD), and SOLID principles</strong>. Experienced in leading engineering teams through the full SDLC. Skilled in cloud-ready <strong>Azure solutions</strong>, Event Sourcing, and multi-tenant system design.
+            </p>
+
+            <div class="skills-wrap">
+              <div class="skill-group aos-fade" style="--ad:0.05s">
+                <span class="sg-label">Programming</span>
+                <div class="sg-tags">
+                  <span class="stag">C#</span>
+                  <span class="stag">JavaScript</span>
+                  <span class="stag">TypeScript</span>
+                  <span class="stag">SQL</span>
+                  <span class="stag">PHP</span>
+                  <span class="stag">LINQ</span>
                 </div>
-            </footer>
-    </section>
-    <!--/ Section Contact-footer End /-->
+              </div>
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <div id="preloader"></div>
+              <div class="skill-group aos-fade" style="--ad:0.1s">
+                <span class="sg-label">Frameworks & Libraries</span>
+                <div class="sg-tags">
+                  <span class="stag">.NET Core</span>
+                  <span class="stag">ASP.NET MVC</span>
+                  <span class="stag">Web API</span>
+                  <span class="stag">Entity Framework</span>
+                  <span class="stag">Dapper</span>
+                  <span class="stag">React</span>
+                  <span class="stag">Redux</span>
+                  <span class="stag">Node.js</span>
+                  <span class="stag">WordPress</span>
+                </div>
+              </div>
 
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/counterup/jquery.waypoints.min.js"></script>
-    <script src="lib/counterup/jquery.counterup.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
+              <div class="skill-group aos-fade" style="--ad:0.15s">
+                <span class="sg-label">Architecture & Design</span>
+                <div class="sg-tags">
+                  <span class="stag purple">Clean Architecture</span>
+                  <span class="stag purple">DDD</span>
+                  <span class="stag purple">Microservices</span>
+                  <span class="stag purple">SOLID</span>
+                  <span class="stag purple">RESTful APIs</span>
+                  <span class="stag purple">Event Sourcing</span>
+                </div>
+              </div>
 
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
+              <div class="skill-group aos-fade" style="--ad:0.2s">
+                <span class="sg-label">Cloud & DevOps</span>
+                <div class="sg-tags">
+                  <span class="stag">Azure Functions</span>
+                  <span class="stag">Azure Queues</span>
+                  <span class="stag">Blob Storage</span>
+                  <span class="stag">Docker</span>
+                  <span class="stag">Git</span>
+                  <span class="stag">Azure DevOps</span>
+                  <span class="stag">Jira</span>
+                  <span class="stag">Agile/Scrum</span>
+                </div>
+              </div>
+
+              <div class="skill-group aos-fade" style="--ad:0.25s">
+                <span class="sg-label">AI / LLM APIs</span>
+                <div class="sg-tags">
+                  <span class="stag orange">OpenAI (ChatGPT)</span>
+                  <span class="stag orange">Google Gemini</span>
+                  <span class="stag orange">Alibaba Qwen</span>
+                </div>
+              </div>
+
+              <div class="skill-group aos-fade" style="--ad:0.3s">
+                <span class="sg-label">Testing & Quality</span>
+                <div class="sg-tags">
+                  <span class="stag">xUnit</span>
+                  <span class="stag">Moq</span>
+                  <span class="stag">Playwright E2E</span>
+                  <span class="stag">Swagger/OpenAPI</span>
+                  <span class="stag">Postman</span>
+                  <span class="stag">Redis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE
+  ============================================================ -->
+  <section id="experience" class="section-block section-alt">
+    <div class="container">
+      <div class="section-header aos-fade">
+        <span class="sec-label">02 / Experience</span>
+        <h2 class="sec-title">Work History</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-item aos-fade" style="--ad:0s">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <div class="tl-head">
+              <div class="tl-head-left">
+                <h3 class="tl-role">Tech Lead — Software Engineer</h3>
+                <p class="tl-company">Vivido Software Sh.p.k. &nbsp;·&nbsp; Hybrid, Albania</p>
+              </div>
+              <span class="tl-date">Oct 2023 — Present</span>
+            </div>
+            <p class="tl-client">Toyota Motor Europe &nbsp;·&nbsp; Toshiko Project</p>
+            <p class="tl-desc">Oversaw architectural design and implementation of a multi-tenant ERP for the automotive industry. Built an Event Sourcing system with Domain Events Manager for data consistency across microservices. Developed React/TypeScript UI while maintaining legacy ASP.NET MVC components. Designed long-running workflows with Azure Durable Functions and Queues. Strengthened reliability with C# unit/integration tests and Playwright E2E testing.</p>
+            <div class="tl-stack">
+              <span class="stk">.NET</span>
+              <span class="stk">ASP.NET MVC</span>
+              <span class="stk">React</span>
+              <span class="stk">TypeScript</span>
+              <span class="stk">Azure Durable Functions</span>
+              <span class="stk">Docker</span>
+              <span class="stk">SQL Server</span>
+              <span class="stk">RavenDB</span>
+              <span class="stk">Playwright</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item aos-fade" style="--ad:0.05s">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <div class="tl-head">
+              <div class="tl-head-left">
+                <h3 class="tl-role">Backend Senior Software Developer</h3>
+                <p class="tl-company">B2Tech &nbsp;·&nbsp; Technology & Gaming</p>
+              </div>
+              <span class="tl-date">Dec 2022 — Oct 2023</span>
+            </div>
+            <p class="tl-desc">Engineered high-performance backend services for iGaming and sports betting platforms for the African market. Managed high-concurrency traffic and real-time data updates. Migrated legacy .NET Framework to .NET 6/Core. Designed and optimized complex SQL Server stored procedures for high-volume gaming transactions and real-time odds calculations.</p>
+            <div class="tl-stack">
+              <span class="stk">.NET 6/Core</span>
+              <span class="stk">ASP.NET MVC 5</span>
+              <span class="stk">Entity Framework</span>
+              <span class="stk">Redis</span>
+              <span class="stk">RESTful APIs</span>
+              <span class="stk">SQL Server</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item aos-fade" style="--ad:0.1s">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <div class="tl-head">
+              <div class="tl-head-left">
+                <h3 class="tl-role">Software Engineer — Toshiko</h3>
+                <p class="tl-company">Vivido Software Sh.p.k. &nbsp;·&nbsp; Albania</p>
+              </div>
+              <span class="tl-date">Apr 2021 — Dec 2022</span>
+            </div>
+            <p class="tl-client">Toyota Motor Europe &nbsp;·&nbsp; Toshiko Project</p>
+            <p class="tl-desc">Contributed to the architectural design and implementation of a multi-tenant ERP solution for the automotive industry, streamlining sales workflows, service operations, and dealership performance tracking. Developed and maintained full-stack features across ASP.NET MVC back-end and front-end layers, implementing multi-tenant data isolation and building responsive UI components with TypeScript and jQuery.</p>
+            <div class="tl-stack">
+              <span class="stk">.NET</span>
+              <span class="stk">ASP.NET MVC</span>
+              <span class="stk">TypeScript</span>
+              <span class="stk">jQuery</span>
+              <span class="stk">SQL Server</span>
+              <span class="stk">RavenDB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item aos-fade" style="--ad:0.15s">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <div class="tl-head">
+              <div class="tl-head-left">
+                <h3 class="tl-role">Full Stack Developer — Atomo</h3>
+                <p class="tl-company">Vivido Software &nbsp;·&nbsp; Toscana Energia (External)</p>
+              </div>
+              <span class="tl-date">Oct 2020 — Apr 2021</span>
+            </div>
+            <p class="tl-desc">Full stack development for a gas and energy sales platform. Built complex grids with advanced filtering using Telerik Kendo across front-end and back-end, working with both legacy and modern technologies.</p>
+            <div class="tl-stack">
+              <span class="stk">ASP.NET MVC 5</span>
+              <span class="stk">Dapper</span>
+              <span class="stk">AutoMapper</span>
+              <span class="stk">Telerik Kendo</span>
+              <span class="stk">jQuery</span>
+              <span class="stk">SQL Server</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item aos-fade" style="--ad:0.2s">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <div class="tl-head">
+              <div class="tl-head-left">
+                <h3 class="tl-role">SharePoint & Power Automate Developer</h3>
+                <p class="tl-company">Vivido Software &nbsp;·&nbsp; Alten Italia (External)</p>
+              </div>
+              <span class="tl-date">Mar 2020 — Oct 2020</span>
+            </div>
+            <p class="tl-desc">Developed SharePoint Framework (SPFx) web parts and extensions. Automated email notifications, document processing, and file filtering via Power Automate flows. Handled complex provisioning with PowerShell and SharePoint PnP patterns.</p>
+            <div class="tl-stack">
+              <span class="stk">SPFx</span>
+              <span class="stk">React</span>
+              <span class="stk">Office UI Fabric</span>
+              <span class="stk">TypeScript</span>
+              <span class="stk">PowerShell</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item aos-fade" style="--ad:0.25s">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <div class="tl-head">
+              <div class="tl-head-left">
+                <h3 class="tl-role">Full Stack Developer</h3>
+                <p class="tl-company">Vivido Software &nbsp;·&nbsp; Toscana (External)</p>
+              </div>
+              <span class="tl-date">May 2018 — Oct 2020</span>
+            </div>
+            <p class="tl-desc">Full-stack feature development and bug fixing in legacy ASP Classic system. WPF reporting application development. Built a .NET Framework 4.5 solution generating thousands of XML and Excel rows via parallel tasks. Implemented custom Active Directory authentication.</p>
+            <div class="tl-stack">
+              <span class="stk">ASP Classic</span>
+              <span class="stk">.NET MVC</span>
+              <span class="stk">C#</span>
+              <span class="stk">WPF</span>
+              <span class="stk">jQuery</span>
+              <span class="stk">SQL Server</span>
+              <span class="stk">Oracle</span>
+              <span class="stk">IBM Informix</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item aos-fade" style="--ad:0.3s">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <div class="tl-head">
+              <div class="tl-head-left">
+                <h3 class="tl-role">PHP & WordPress Developer</h3>
+                <p class="tl-company">Freelance</p>
+              </div>
+              <span class="tl-date">Nov 2016 — Apr 2018</span>
+            </div>
+            <p class="tl-desc">Designed, built, and maintained WordPress websites and custom PHP applications. Implemented new features, optimized performance, and ensured responsive design across client projects.</p>
+            <div class="tl-stack">
+              <span class="stk">PHP</span>
+              <span class="stk">WordPress</span>
+              <span class="stk">jQuery</span>
+              <span class="stk">Bootstrap</span>
+              <span class="stk">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS
+  ============================================================ -->
+  <section id="projects" class="section-block">
+    <div class="container">
+      <div class="section-header aos-fade">
+        <span class="sec-label">03 / Projects</span>
+        <h2 class="sec-title">Featured Work</h2>
+      </div>
+
+      <div class="row proj-grid">
+
+        <div class="col-md-4 mb-4">
+          <a href="https://www.npmjs.com/package/jspdf-invoice-template" target="_blank" class="proj-card aos-fade" style="--ad:0s">
+            <div class="proj-num">01</div>
+            <div class="proj-icon"><i class="fa fa-file-pdf-o"></i></div>
+            <h3 class="proj-title">jspdf-invoice-template</h3>
+            <p class="proj-desc">A widely-used npm package for generating professional PDF invoices with optional parameters using the jsPDF library.</p>
+            <div class="proj-tags">
+              <span class="ptag">JavaScript</span>
+              <span class="ptag">jsPDF</span>
+              <span class="ptag">npm</span>
+            </div>
+            <span class="proj-link">View on npm <i class="fa fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/edisonneza/react-blog" target="_blank" class="proj-card aos-fade" style="--ad:0.1s">
+            <div class="proj-num">02</div>
+            <div class="proj-icon"><i class="fa fa-rss"></i></div>
+            <h3 class="proj-title">react-blog</h3>
+            <p class="proj-desc">A Progressive Web App blog template built with React and Material UI, demonstrating modern PWA capabilities and patterns.</p>
+            <div class="proj-tags">
+              <span class="ptag">React</span>
+              <span class="ptag">Material UI</span>
+              <span class="ptag">PWA</span>
+            </div>
+            <span class="proj-link">View on GitHub <i class="fa fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <a href="/image-to-text" class="proj-card aos-fade" style="--ad:0.2s">
+            <div class="proj-num">03</div>
+            <div class="proj-icon"><i class="fa fa-eye"></i></div>
+            <h3 class="proj-title">Image to Text</h3>
+            <p class="proj-desc">A free OCR online converter tool built with JavaScript — converts images to editable text entirely client-side, no server required.</p>
+            <div class="proj-tags">
+              <span class="ptag">JavaScript</span>
+              <span class="ptag">OCR</span>
+              <span class="ptag">Client-side</span>
+            </div>
+            <span class="proj-link">Try it live <i class="fa fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="proj-more aos-fade">
+        <a href="blog" class="btn-ghost-custom">Read the blog <i class="fa fa-long-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EDUCATION
+  ============================================================ -->
+  <section class="section-block section-alt">
+    <div class="container">
+      <div class="section-header aos-fade">
+        <span class="sec-label">04 / Education</span>
+        <h2 class="sec-title">Academic Background</h2>
+      </div>
+
+      <div class="row edu-row">
+        <div class="col-md-6 mb-4">
+          <div class="edu-card aos-fade" style="--ad:0s">
+            <div class="edu-badge">MSc</div>
+            <div class="edu-info">
+              <h3 class="edu-degree">Master of Science</h3>
+              <p class="edu-field">Computer Science</p>
+              <p class="edu-school">Universiteti Aleksander Moisiu</p>
+              <span class="edu-year">2018 — 2020</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="edu-card aos-fade" style="--ad:0.1s">
+            <div class="edu-badge">BSc</div>
+            <div class="edu-info">
+              <h3 class="edu-degree">Bachelor of Science</h3>
+              <p class="edu-field">Computer Science</p>
+              <p class="edu-school">Universiteti Aleksander Moisiu</p>
+              <span class="edu-year">2013 — 2016</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER / CONTACT
+  ============================================================ -->
+  <footer id="contact" class="footer-section">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid aos-fade">
+          <div class="footer-left">
+            <span class="sec-label">05 / Contact</span>
+            <h2 class="footer-title">Let's work<br><em>together.</em></h2>
+            <a href="mailto:edisonneza.dev@gmail.com" class="footer-email">edisonneza.dev@gmail.com</a>
+            <p class="footer-phone">+355 6720-----</p>
+            <p class="footer-location">Durres, Albania</p>
+          </div>
+          <div class="footer-right">
+            <p class="footer-social-label">Find me on</p>
+            <div class="footer-socials">
+              <a href="https://github.com/edisonneza" target="_blank" class="fsoc">
+                <i class="ion-social-github"></i><span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/edisonneza" target="_blank" class="fsoc">
+                <i class="ion-social-linkedin"></i><span>LinkedIn</span>
+              </a>
+              <a href="https://twitter.com/edisonneza" target="_blank" class="fsoc">
+                <i class="ion-social-twitter"></i><span>Twitter</span>
+              </a>
+              <a href="https://facebook.com/edisonneza" target="_blank" class="fsoc">
+                <i class="ion-social-facebook"></i><span>Facebook</span>
+              </a>
+              <a href="https://instagram.com/edisonneza" target="_blank" class="fsoc">
+                <i class="ion-social-instagram"></i><span>Instagram</span>
+              </a>
+              <a href="https://www.npmjs.com/package/jspdf-invoice-template" target="_blank" class="fsoc">
+                <i class="fa fa-cube"></i><span>npm</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="footer-copy">
+          &copy; 2025 Edison Neza &nbsp;·&nbsp; Powered by <a href="https://pages.github.io/">GitHub Pages</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js?v=1.0.0"></script>
+  <script src="lib/jquery/jquery-migrate.min.js?v=1.0.0"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js?v=1.0.0"></script>
+  <script src="lib/easing/easing.min.js?v=1.0.0"></script>
+  <script src="lib/typed/typed.min.js?v=1.0.0"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js?v=1.0.0"></script>
 
 </body>
-
 </html>
